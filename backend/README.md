@@ -253,3 +253,4 @@ MIT License - see LICENSE file for details.
 - JSON aggregation uses MySQL functions: `JSON_ARRAYAGG` and `JSON_OBJECT` in subqueries.
 - `NULL`-safe equality leverages MySQL `<=>` when comparing optional keys (e.g., `job_role_id`).
 - Connection is managed via `mysql2/promise` pool; environment variables support either `MYSQL_URL` or individual `MYSQL_*` fields.
+- Run create_cir_user, create_admin_user to create a CIR and an Admin user with node <fileName>
